@@ -55,10 +55,6 @@ render() {
                 {this.props.endScreenData.map(item => {
                   return (
                     <div className="end-screen-item">
-                      <img
-                        src={require('../public/sample.png')}
-                        alt={item.name}
-                      />
                       <p>{item.name}</p>
                     </div>
                   );
