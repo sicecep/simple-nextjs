@@ -47,24 +47,6 @@ render() {
           className="video-js"
           crossOrigin="anonymous"
         />
-        {this.state.isEnd ? (
-          <div className="end-screen-container">
-            <div>
-              <h5 className="end-screen-title">Sample End screen...</h5>
-              <div className="end-screen-items">
-                {this.props.endScreenData.map(item => {
-                  return (
-                    <div className="end-screen-item">
-                      <p>{item.name}</p>
-                    </div>
-                  );
-                })}
-              </div>
-            </div>
-          </div>
-        ) : (
-          ''
-        )}
       </div>
     );
   }
