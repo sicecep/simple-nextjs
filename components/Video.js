@@ -50,8 +50,8 @@ render() {
         {this.state.isEnd ? (
           <div className="end-screen-container">
             <div>
-              <h5 class="end-screen-title">Sample End screen...</h5>
-              <div class="end-screen-items">
+              <h5 className="end-screen-title">Sample End screen...</h5>
+              <div className="end-screen-items">
                 {this.props.endScreenData.map(item => {
                   return (
                     <div className="end-screen-item">
