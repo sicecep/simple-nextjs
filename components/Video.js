@@ -1,7 +1,6 @@
 // taken from https://github.com/videojs/video.js/blob/master/docs/guides/react.md
 import React, { Component } from 'react';
 import videojs from "video.js";
-import '../node_modules/video.js/dist/video-js.css';
 
 export default class Player extends Component {
     constructor() {
